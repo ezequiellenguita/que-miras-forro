@@ -1,0 +1,25 @@
+se debera desarollar un sistema en anci c de venta de productos al mercadolibre. en este sistema existiran usuarios, lso cuales ngresaran utilizando usuario y password. mediante la plataforma se podra comprar y vender productos, estos se encuentram definidos por nombre y precio. la porcion del sistemaque debeta realizarse se centrara en la venta de productos y consta de un menu con las siguintes opciones:
+
+1-alta de usuario:se piden los datos requerodos para que el sistema pueda funcionar.
+
+2-modificar datos del usuario:se ingresa el id del usuario, permitiendo modificar los datos.
+
+3-baja del usuario:se ingresa el id del usuario y se eliminara junto con sus productos a la venta.
+
+4-publicar producto:se ingresara el id del usuario, se pediran los datos del producto a publicar(nombre, precio, stock)
+
+5-modificar publicacion:se ingresa el id del usuario y se listaran sus productos mostrando todos sus campos(id, nombre, precio, stock), luego ingresar el id del producto, se pedira que ingrese un nuevo precio y stock
+
+6-cancelar publicacion:se ingresa el id del usuario y se listaran sus productos mostrando todos sus campos(id, nombre, precio, stock), luego ingresar el id del poroductoque se quiere cancelar su publicacion
+
+7-comprar producto:se ingresara el id del producto a comprar, en caso de que haya stock se realizara la compra y se califacara al vendedor
+
+8-listar las publicaciones del usuario:se ingresara el id del usuario y se mostrara en lista sus productos indicando id nombre precio cantidad vendida y stock
+
+9-listar publicaciones:se mostrar una lista de productos indicando id nombre precio cantidad vendida stock  y nombre del usuario
+
+10-listar usuarios:se mostrara una lista de usuarios con la calificacion promedio de cada uno
+
+(nota0: el sistema soportara cap.max.100 usuarios y 1000 productos)
+(nota1: se debera desarrollar una biblioteca lib.c y lib.h la cual contendra las funciones)
+(nota2: el codigo debera tener comentariosde cada una de las funciones y respetar las reglas al estilo de la catedra)
